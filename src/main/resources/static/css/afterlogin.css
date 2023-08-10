@@ -220,23 +220,23 @@ header .navbar a:hover {
     padding: 1rem 0;
 }
 /* home section completed */
-/* basketball section started */
-#basketballs{
+/* bhakundo section started */
+#bhakundos{
     min-height: 100vh;
 }
-#basketballs h1{
+#bhakundos h1{
     font-size: 3rem;
     text-align: center;
     margin: 3% 0;
 }
-.all-basketball{
+.all-bhakundo{
     display: flex;
     justify-content: space-evenly;
     /* border: 2px solid green; */
     align-items: center;
     flex-wrap: wrap;
 }
-.indiviudal-basketball{
+.indiviudal-bhakundo{
     display: flex;
     /* border: 2px solid red; */
     border-radius: 10px;
@@ -246,22 +246,22 @@ header .navbar a:hover {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 9px 8px, rgba(0, 0, 0, 0.22) 0px 5px 2px;
 }
-.indiviudal-basketball:hover{
+.indiviudal-bhakundo:hover{
     transform: scale(1.04);
     transition: 0.3s ease-in-out;
 }
-.indiviudal-basketball img{
+.indiviudal-bhakundo img{
     width: 100%;
     height: auto;
 }
-.indiviudal-basketball h2{
+.indiviudal-bhakundo h2{
     font-size: 2rem;
     margin: 3% 0;
 }
-.indiviudal-basketball p{
+.indiviudal-bhakundo p{
     font-size: 1.5rem;
 }
-.indiviudal-basketball a{
+.indiviudal-bhakundo a{
     background-color: var(--secondary);
     border-radius: 10px;
     padding: 5%;
@@ -270,7 +270,7 @@ header .navbar a:hover {
     font-size: 2rem;
     text-align: center;
 }
-.indiviudal-basketball a:hover{
+.indiviudal-bhakundo a:hover{
     background-color: var(--white);
     color: var(--secondary);
     transition: 0.2s ease-in-out;
@@ -279,7 +279,7 @@ header .navbar a:hover {
 
 }
 
-/* basketball part completed */
+/* bhakundo part completed */
 
 /* footer part starts */
 

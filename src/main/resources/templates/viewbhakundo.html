@@ -33,7 +33,7 @@
 <!-- sidebar content upto here -->
 <div class="innercontent">
   <div class="indiviudal-bhakundo" th:each="bhakundo:${bhakundos}">
-    <a th:href="@{~/admin/product/}+${bhakundo.basket_ballId}">
+    <a th:href="@{~/admin/product/}+${bhakundo.bhakundo_Id}">
     <img th:src="'data:image/png;base64,'+${bhakundo.imageBase64}" alt="image/">
     <h2 th:text="${bhakundo.bhakundoname}"></h2>
     <p th:text="${bhakundo.Description}"></p>

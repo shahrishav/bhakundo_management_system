@@ -22,7 +22,7 @@
   <form th:method="post" th:action="@{/ball/save}" th:object="${bhakundos}" enctype="multipart/form-data">
 
   <div class="inputsection">
-    <input class="iddds" hidden type="text" th:field="*{fid}" th:value="${clickedbhakundo.getBasket_ballId()}">
+    <input class="iddds" hidden type="text" th:field="*{fid}" th:value="${clickedbhakundo.getBhakundo_Id()}">
 
     <div class="name bhakundo">
       <input type="text" placeholder="Enter the Bhakundo name" required th:field="*{fname}" th:value="${clickedbhakundo.getBhakundoname()}">
@@ -52,11 +52,11 @@
 
   </div>
   <div class="edit">
-   <a th:href="@{~/admin/edit/}+${clickedbhakundo.basket_ballId}"> <button type="submit">Save Changes</button>
+   <a th:href="@{~/admin/edit/}+${clickedbhakundo.bhakundo_Id}"> <button type="submit">Save Changes</button>
    </a>
   </div>
   <div class="delete">
-   <a th:href="@{~/admin/delete/}+${clickedbhakundo.basket_ballId}"> <button type="button">Delete Bhakundo</button>
+   <a th:href="@{~/admin/delete/}+${clickedbhakundo.bhakundo_Id}"> <button type="button">Delete Bhakundo</button>
     </a>
   </div>
 

@@ -12,6 +12,8 @@ body {
     font-weight: 400;
     color: #666666;
     background: #eaeff4;
+    background: url('https://www.basic-fit.com/dw/image/v2/BDFP_PRD/on/demandware.static/-/Library-Sites-basic-fit-shared-library/default/dw5927c613/Roots/Blog/Blog-Header/528x352/19-03-Blog-Fitness-Training-Football-Soccer.jpg?sw=600');
+    background-size: cover;
 }
 
 .wrapper {
@@ -84,7 +86,7 @@ p {
 .col-left {
     width: 55%;
     /* background: #4CAF50; */
-    background: url('https://basketball.bc.ca/image/w2000-h900-c20:9/files/AdobeStock_127296532-web%20(1)-28.jpg');
+    background: url('https://imgs.search.brave.com/Jb7A3EmS3fsEMBrzgELNNFszzSpUJhqnt6Ko-iSZEzo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTMz/ODYxNTcyL3Bob3Rv/L2Zvb3RiYWxsLWlu/LXRoZS1zdW5zZXQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PTdTa2k4MGVaYmRs/Qk9vU3BUdmN2cGZ5/WERkcHZqeWFLZGp6/U0dTT2FNU289');
     background-size: cover;
     border-radius: 10px;
     /* -webkit-clip-path: polygon(98% 17%, 100% 34%, 98% 51%, 100% 68%, 98% 84%, 100% 100%, 0 100%, 0 0, 100% 0);

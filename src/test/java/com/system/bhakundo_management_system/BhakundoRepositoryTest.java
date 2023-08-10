@@ -30,7 +30,7 @@ public class BhakundoRepositoryTest {
 
         bhakundoRepo.save(bhakundo);
 
-        Assertions.assertThat(bhakundo.getBasket_ballId()).isGreaterThan(0);
+        Assertions.assertThat(bhakundo.getBhakundo_Id()).isGreaterThan(0);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class BhakundoRepositoryTest {
 
         bhakundoRepo.save(bhakundo);
 
-        Bhakundo bhakundo1 = bhakundoRepo.findById(bhakundo.getBasket_ballId()).get();
+        Bhakundo bhakundo1 = bhakundoRepo.findById(bhakundo.getBhakundo_Id()).get();
 
         bhakundo1.setBhakundocontact("13265");
 
